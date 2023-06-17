@@ -1,5 +1,5 @@
 /***************************************/
-/* Description : Sev Seg private c File*/
+/* Description : Sev Seg private h File*/
 /* Author      : hossam                */
 /* Version     : 0.1V                  */
 /* Date        : 10:52:34  03 Jan 2023 */
