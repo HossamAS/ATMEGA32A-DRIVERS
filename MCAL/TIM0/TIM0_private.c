@@ -1,21 +1,12 @@
 /**************************************/
-/* Description : LED private c File   */
+/* Description : TIM0 private c File  */
 /* Author      : hossam               */
 /* Version     : 0.1V                 */
-/* Date        : 19:24:48  03 Jan 2023*/
+/* Date        : 12:06:30  16 Mar 2023*/
 /* History     : 0.1V Initial Creation*/
 /**************************************/
+#include "../../LIB/STD_TYPES/STD_TYPES.h"
 
+pf OVF0_CallBack=NULL_PTR;
+pf OCM0_CallBack=NULL_PTR;
 
-
-
-#ifndef LED_PRIVATE_H
-#define LED_PRIVATE_H
-
-
-
-extern uint8_kt au8LedConfig[LED_NUM_MAX];
-
-
-
-#endif

@@ -119,10 +119,10 @@ typedef struct{
 
 #define TIM1 (*(volatile TIM1_st*)(0x46))
 
-pf OVF1_CallBack=NULL_PTR;
-pf OCM1A_CallBack=NULL_PTR;
-pf OCM1B_CallBack=NULL_PTR;
-pf ICU1_CallBack=NULL_PTR;
+extern pf OVF1_CallBack;
+extern pf OCM1A_CallBack;
+extern pf OCM1B_CallBack;
+extern pf ICU1_CallBack;
 
 
 

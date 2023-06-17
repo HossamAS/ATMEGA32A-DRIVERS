@@ -1,21 +1,21 @@
 /**************************************/
-/* Description : LED private c File   */
+/* Description : I2C private c File   */
 /* Author      : hossam               */
 /* Version     : 0.1V                 */
-/* Date        : 19:24:48  03 Jan 2023*/
+/* Date        : 16:10:06  18 May 2023*/
 /* History     : 0.1V Initial Creation*/
 /**************************************/
 
+#include "../../LIB/STD_TYPES/STD_TYPES.h"
+
+
+pf TWI_CallBack=NULL_PTR;
+uint8_kt * u8TWI_Data=NULL_PTR;
 
 
 
-#ifndef LED_PRIVATE_H
-#define LED_PRIVATE_H
 
 
 
-extern uint8_kt au8LedConfig[LED_NUM_MAX];
 
 
-
-#endif

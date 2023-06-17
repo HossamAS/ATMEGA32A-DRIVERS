@@ -64,8 +64,8 @@ typedef struct{
 
 
 #define AC  ((volatile AC_st*)(0x26))
-pf AC_pfCallBack=NULL_PTR;
-uint8_kt *pu8Output=NULL_PTR;
+extern pf AC_pfCallBack;
+extern uint8_kt *pu8Output;
 
 
 #endif

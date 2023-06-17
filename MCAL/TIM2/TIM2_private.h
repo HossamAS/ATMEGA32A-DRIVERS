@@ -73,6 +73,6 @@ typedef struct{
 }TIMER2_st;
 
 #define TIM2 (*(volatile TIMER2_st*)(0x42))
-pf OVF2_CallBack=NULL_PTR;
-pf OCM2_CallBack=NULL_PTR;
+extern pf OVF2_CallBack;
+extern pf OCM2_CallBack;
 #endif

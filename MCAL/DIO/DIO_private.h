@@ -47,6 +47,6 @@ typedef struct {
 */
 #define CONC(Bit7,Bit6,Bit5,Bit4,Bit3,Bit2,Bit1,Bit0)  ((Bit7<<7)|(Bit6<<6)|(Bit5<<5)|(Bit4<<4)|(Bit3<<3)|(Bit2<<2)|(Bit1<<1)|Bit0)
 
-static ErrorStatus_et DetectMultiOccurance(uint8_kt au8Arr[],uint8_kt au8ArrLengthCpy);
+ErrorStatus_et DetectMultiOccurance(uint8_kt au8Arr[],uint8_kt au8ArrLengthCpy);
 
 #endif

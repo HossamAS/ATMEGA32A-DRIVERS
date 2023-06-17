@@ -81,6 +81,6 @@ typedef struct{
 
 
 #define ADC ((volatile ADC_st*)(0x24))
-pf ADC_CallBack=NULL_PTR;
-uint16_kt* pu16AsyncValue=NULL_PTR;
+extern pf ADC_CallBack;
+extern uint16_kt* pu16AsyncValue;
 #endif

@@ -48,8 +48,8 @@ typedef struct{
 #define SPI (*(volatile SPI_st*)(0x2D))
 
 
-pf STC_CallBack=NULL_PTR;
-uint8_kt * pu8SPI_AsyncByte=NULL_PTR;
+extern pf STC_CallBack;
+extern uint8_kt * pu8SPI_AsyncByte;
 
 
 

@@ -28,7 +28,7 @@ typedef struct{
   	  uint8_kt 	au8LcdDataPins[8];
 }LcdConfig_st;
 
-static ErrorStatus_et LCD_vLcdWriteHelper (uint8_kt u8LcdIndexCpy, uint8_kt u8CmdCpy);
-static ErrorStatus_et LCD_vLcdReadHelper (uint8_kt u8LcdIndexCpy, uint8_kt * pu8Cmd);
-
+ErrorStatus_et LCD_vLcdWriteHelper (uint8_kt u8LcdIndexCpy, uint8_kt u8CmdCpy);
+ErrorStatus_et LCD_vLcdReadHelper (uint8_kt u8LcdIndexCpy, uint8_kt * pu8Cmd);
+extern LcdConfig_st aLcdConfig_s[LCD_MAX_NUM];
 #endif

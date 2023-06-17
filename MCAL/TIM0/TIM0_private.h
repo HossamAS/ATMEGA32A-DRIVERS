@@ -61,6 +61,6 @@ typedef struct{
 }TIMER0_st;
 
 #define TIM0 ((volatile TIMER0_st*)(0x52))
-pf OVF0_CallBack=NULL_PTR;
-pf OCM0_CallBack=NULL_PTR;
+extern pf OVF0_CallBack;
+extern pf OCM0_CallBack;
 #endif

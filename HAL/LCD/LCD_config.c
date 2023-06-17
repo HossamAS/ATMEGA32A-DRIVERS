@@ -6,7 +6,7 @@
 /* History     : 0.1V Initial Creation*/
 /**************************************/
 #include "LCD_config.h"
-#include "LCD_interface.h""
+#include "LCD_interface.h"
 #include "LCD_private.h"
 #include "../../MCAL/DIO/DIO_interface.h"
 LcdConfig_st aLcdConfig_s[LCD_MAX_NUM]=

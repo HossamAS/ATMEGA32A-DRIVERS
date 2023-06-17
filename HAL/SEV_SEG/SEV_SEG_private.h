@@ -19,7 +19,7 @@ typedef struct{
 	uint8_kt u8DotMode;
 }SevSegConfig_st;
 
-extern SevSegConfig_st aSevSegConfig_s[];
+extern SevSegConfig_st aSevSegConfig_s[SEV_SEG_NUM_MAX];
 
 
 #endif

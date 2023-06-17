@@ -74,8 +74,8 @@ typedef struct{
 #define TWI (*(volatile TWI_st*)(0X20))
 
 
-pf TWI_CallBack=NULL_PTR;
-uint8_kt * u8TWI_Data=NULL_PTR;
+extern pf TWI_CallBack;
+extern uint8_kt * u8TWI_Data;
 
 
 

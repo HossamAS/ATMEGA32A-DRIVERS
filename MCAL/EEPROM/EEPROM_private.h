@@ -54,7 +54,7 @@ typedef struct{
 
 #define EEPROM (*(volatile EEPROM_st*)(0x3c))
 
-pf EE_RDY_CallBack=NULL_PTR;
+extern pf EE_RDY_CallBack;
 
 
 

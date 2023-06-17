@@ -77,8 +77,8 @@ typedef struct {
 
 
 #define INT ((volatile INT_st*)(0X54))
-pf INT0_CallBack;
-pf INT1_CallBack;
-pf INT2_CallBack;
+extern pf INT0_CallBack;
+extern pf INT1_CallBack;
+extern pf INT2_CallBack;
 
 #endif

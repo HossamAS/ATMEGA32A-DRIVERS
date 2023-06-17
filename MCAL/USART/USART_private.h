@@ -89,9 +89,9 @@ typedef struct{
 
 #define USART (*(volatile USART_st*)(0x29))
 
-pf RXC_CallBack=NULL_PTR;
-pf UDRE_CallBack=NULL_PTR;
-pf TXC_CallBack=NULL_PTR;
+extern pf RXC_CallBack;
+extern pf UDRE_CallBack;
+extern pf TXC_CallBack;
 
-uint8_kt * pu8USART_AsyncByte=NULL_PTR;
+extern uint8_kt * pu8USART_AsyncByte;
 #endif
