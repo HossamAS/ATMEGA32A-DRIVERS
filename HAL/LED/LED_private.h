@@ -1,5 +1,5 @@
 /**************************************/
-/* Description : LED private c File   */
+/* Description : LED private h File   */
 /* Author      : hossam               */
 /* Version     : 0.1V                 */
 /* Date        : 19:24:48  03 Jan 2023*/
