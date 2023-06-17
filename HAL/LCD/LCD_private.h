@@ -1,5 +1,5 @@
 /**************************************/
-/* Description : LCD private c File   */
+/* Description : LCD private h File   */
 /* Author      : hossam               */
 /* Version     : 0.1V                 */
 /* Date        : 00:44:06  12 Jan 2023*/
