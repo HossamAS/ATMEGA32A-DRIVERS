@@ -29,8 +29,13 @@
 
 ##### notes:
  
-    1-the user can write to the configuration files only and use the interface parameters as pathing parameters to the arguments of the APIs to avoid PARAM_OUT_OF_RANGE or PARAM_NULL_PTR error states as return values.    
-    2-the HAL drivers uses mix between link-time, pre-build configuration type,and run-time configuration APIs.   
-    3-the MCAL drivers uses pre-build configuration type and run-time configuration APIs.   
-    4-the drivers have the including of the files based on the current structure of the folders so please be careful to avoid "there are no such file" preprocessing error.
+    1-the user can write to the configuration files only and use the interface parameters as pathing parameters to the arguments
+    of the APIs to avoid PARAM_OUT_OF_RANGE or PARAM_NULL_PTR error states as return values.
+    
+    2-the HAL drivers uses mix between link-time, pre-build configuration type,and run-time configuration APIs. 
+    
+    3-the MCAL drivers uses pre-build configuration type and run-time configuration APIs.  
+    
+    4-the drivers have the including of the files based on the current structure of the folders so please be careful to avoid 
+    "there are no such file" preprocessing error.
                          
