@@ -15,7 +15,7 @@
     2-DRIVER_private.h :
     is the implementation of the driver casted register using struct and union Pattern or to implement 
     the prototype of private functions, variables or callback functions those can be used in program file 
-    only (like static).
+    only (like static ones).
     3-DRIVER_config.c:
     is the implementation of the linking time configuration struct or array of structs that can be configured 
     by the "user".
