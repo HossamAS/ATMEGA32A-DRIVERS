@@ -1,19 +1,19 @@
-# ATMEGA32A-DRIVERS
-## this is the most used MCAL and HAL drivers based on ATMEGA32A
-### the drivers structed based on SIX files:
+  # ATMEGA32A-DRIVERS
+  ## this is the most used MCAL and HAL drivers based on ATMEGA32A
+  ### the drivers structed based on SIX files:
                 1-DRIVER_private.c
                 2-DRIVER_private.h
                 3-DRIVER_config.c
                 4-DRIVER_config.h
                 5-DRIVER_interface.h
                 6-DRIVER_program.h
-
-  #####  1-DRIVER_private.c :is used to implement the driver private functions, variables or callback functions which can be used in program file only by "the developer" (like static).
-  #####  2-DRIVER_private.h :is used to implement the driver casted register using struct and union Pattern or to implement the prototype of private functions, variables or callback functions those can be used in program file only (like static).
-  #####  3-DRIVER_config.c:is used to implement the linking time configuration struct or array of structs that can be configured by the "user".
-  #####  4-DRIVER_config.h:is used to implement the pre-build configuration which are the preprocessor directives that can be configured by the "user".
-  #####  5-DRIVER_interface.h:is used to implement the prototypes of the APIs and configuration preprocessor parameters that can be used by the "user" in the configuration files or estimating the limitation of the input parameters for each API to avoid PARAM_OUT_OF_RANGE state.
-  #####  6-DRIVER_program.h:is used to implement the core APIs and ISRs by the "developer".
+.........
+    #####  1-DRIVER_private.c :is used to implement the driver private functions, variables or callback functions which can be used in program file only by "the developer" (like static).
+    #####  2-DRIVER_private.h :is used to implement the driver casted register using struct and union Pattern or to implement the prototype of private functions, variables or callback functions those can be used in program file only (like static).
+    #####  3-DRIVER_config.c:is used to implement the linking time configuration struct or array of structs that can be configured by the "user".
+    #####  4-DRIVER_config.h:is used to implement the pre-build configuration which are the preprocessor directives that can be configured by the "user".
+    #####  5-DRIVER_interface.h:is used to implement the prototypes of the APIs and configuration preprocessor parameters that can be used by the "user" in the configuration files or estimating the limitation of the input parameters for each API to avoid PARAM_OUT_OF_RANGE state.
+    #####  6-DRIVER_program.h:is used to implement the core APIs and ISRs by the "developer".
 
 
 ##### notes:
