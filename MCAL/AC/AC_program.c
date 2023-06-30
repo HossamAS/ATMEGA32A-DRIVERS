@@ -29,35 +29,35 @@ AC->SFIOR.ACME=0;
 
 }
 /*run time configuration*/
-void AC_vEn(void)
+inline void AC_vEn(void)
 {
 	AC->ACSR.ACD=0;
 }
-void AC_vDis(void)
+inline void AC_vDis(void)
 {
 	AC->ACSR.ACD=1;
 }
-void AC_vIntEn(void)
+inline void AC_vIntEn(void)
 {
 	AC->ACSR.ACIE=1;
 }
-void AC_vIntDis(void)
+inline void AC_vIntDis(void)
 {
 	AC->ACSR.ACIE=0;
 }
-void AC_vBandGapOnAIN0_En(void)
+inline void AC_vBandGapOnAIN0_En(void)
 {
 	AC->ACSR.ACBG=1;
 }
-void AC_vBandGapOnAIN0_Dis(void)
+inline void AC_vBandGapOnAIN0_Dis(void)
 {
 	AC->ACSR.ACBG=0;
 }
-void AC_vAsInputCaptureTrigSignalEn(void)
+inline void AC_vAsInputCaptureTrigSignalEn(void)
 {
 	AC->ACSR.ACIC=1;
 }
-void AC_vAsInputCaptureTrigSignalDis(void)
+inline void AC_vAsInputCaptureTrigSignalDis(void)
 {
 	AC->ACSR.ACIC=0;
 }

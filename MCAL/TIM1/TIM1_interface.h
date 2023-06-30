@@ -22,8 +22,12 @@ void TIM1_vICU_NoiseCancelerDis(void);
 void TIM1_vICU_NoiseCancelerEn(void);
 void TIM1_vOverflowIntEn(void);
 void TIM1_vOverflowIntDis(void);
-void TIM1_vOutputCompareMatchIntEn(void);
-void TIM1_vOutputCompareMatchIntDis(void);
+void TIM1_vRegA_OutputCompareMatchIntEn(void);
+void TIM1_vRegA_OutputCompareMatchIntDis(void);
+void TIM1_vRegB_OutputCompareMatchIntEn(void);
+void TIM1_vRegB_OutputCompareMatchIntDis(void);
+void TIM1_vIntputCaptureUnitIntDis(void);
+void TIM1_vIntputCaptureUnitIntEn(void);
 void TIM1_vSetOverflowIntCallback(pf pfCallback);
 void TIM1_vSetOutputCompareMatchIntCallback(pf pfCallback);
 /*APIs*/

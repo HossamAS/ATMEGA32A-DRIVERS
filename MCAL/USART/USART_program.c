@@ -44,59 +44,59 @@ void USART_vInit(void)
 	USART.UBRRH.Bits8_to_11=u16UBRR_Loc>>8;
 }
 /*run-time configuration*/
-void USART_vTransmitter_En(void)
+inline void USART_vTransmitter_En(void)
 {
 	USART.UCSRB.TXEN=1;
 }
-void USART_vTransmitter_Dis(void)
+inline void USART_vTransmitter_Dis(void)
 {
 	USART.UCSRB.TXEN=0;
 }
-void USART_vReceiver_En(void)
+inline void USART_vReceiver_En(void)
 {
 	USART.UCSRB.RXEN=1;
 }
-void USART_vReceiver_Dis(void)
+inline void USART_vReceiver_Dis(void)
 {
 	USART.UCSRB.RXEN=0;
 }
-void USART_vDataRegEmptyInt_En(void)
+inline void USART_vDataRegEmptyInt_En(void)
 {
 	USART.UCSRA.UDRE=1;
 }
-void USART_vDataRegEmptyInt_Dis(void)
+inline void USART_vDataRegEmptyInt_Dis(void)
 {
 	USART.UCSRA.UDRE=0;
 }
-void USART_vTX_CompleteInt_En(void)
+inline void USART_vTX_CompleteInt_En(void)
 {
 	USART.UCSRA.TXC=1;
 }
-void USART_vTX_CompleteInt_Dis(void)
+inline void USART_vTX_CompleteInt_Dis(void)
 {
 	USART.UCSRA.TXC=0;
 }
-void USART_vRX_CompleteInt_En(void)
+inline void USART_vRX_CompleteInt_En(void)
 {
 	USART.UCSRA.RXC=1;
 }
-void USART_vRX_CompleteInt_Dis(void)
+inline void USART_vRX_CompleteInt_Dis(void)
 {
 	USART.UCSRA.RXC=0;
 }
-void USART_vDoubleSpeed_En(void)
+inline void USART_vDoubleSpeed_En(void)
 {
 	USART.UCSRA.U2X=1;
 }
-void USART_vDoubleSpeed_Dis(void)
+inline void USART_vDoubleSpeed_Dis(void)
 {
 	USART.UCSRA.U2X=0;
 }
-void USART_vMultiProcessorComMode_En(void)
+inline void USART_vMultiProcessorComMode_En(void)
 {
 	USART.UCSRA.MPCM=1;
 }
-void USART_vMultiProcessorComMode_Dis(void)
+inline void USART_vMultiProcessorComMode_Dis(void)
 {
 	USART.UCSRA.MPCM=0;
 }

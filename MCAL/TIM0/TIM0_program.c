@@ -48,19 +48,19 @@ ErrorStatus_et TIM0_enuWaveformModeAndCompareOutputMode(uint8_kt u8WaveformModeA
 	}
 		return ErrorStatusLoc_e;
 }
-void TIM0_vOverflowIntEn(void)
+inline void TIM0_vOverflowIntEn(void)
 {
 	TIM0->TIMSK.TOIE0=1;
 }
-void TIM0_vOverflowIntDis(void)
+inline void TIM0_vOverflowIntDis(void)
 {
 	TIM0->TIMSK.TOIE0=0;
 }
-void TIM0_vOutputCompareMatchIntEn(void)
+inline void TIM0_vOutputCompareMatchIntEn(void)
 {
 	TIM0->TIMSK.OCIE0=1;
 }
-void TIM0_vOutputCompareMatchIntDis(void)
+inline void TIM0_vOutputCompareMatchIntDis(void)
 {
 	TIM0->TIMSK.OCIE0=0;
 }

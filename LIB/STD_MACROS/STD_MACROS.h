@@ -12,9 +12,9 @@
 #ifndef STD_MACROS_H
 #define STD_MACROS_H
 
-#define SET_BIT(Reg,BitNum)          ((Reg)|=1<<(BitNum))
-#define CLR_BIT(Reg,BitNum)          ((Reg)&=~(1<<(BitNum)))
-#define TOG_BIT(Reg,BitNum)          ((Reg)^=(1<<(BitNum)))
+#define SET_BIT(Reg,BitNum)          ((Reg)|=1ul<<(BitNum))
+#define CLR_BIT(Reg,BitNum)          ((Reg)&=~(1ul<<(BitNum)))
+#define TOG_BIT(Reg,BitNum)          ((Reg)^=(1ul<<(BitNum)))
 
 #define TOG_BIT_FLD(Bit)             ((Bit)^=1)
 					         

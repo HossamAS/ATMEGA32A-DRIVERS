@@ -38,35 +38,35 @@ void TWI_vInit(void)
 
 /*run-time configuration*/
 
-void TWI_vEn(void)
+inline void TWI_vEn(void)
 {
 	TWI.TWCR.TWEN=1;
 }
-void TWI_vDis(void)
+inline void TWI_vDis(void)
 {
 	TWI.TWCR.TWEN=0;
 }
-void TWI_vGeneralCallRecognitionEn(void)
+inline void TWI_vGeneralCallRecognitionEn(void)
 {
 	TWI.TWAR.TWGCE=1;
 }
-void TWI_vGeneralCallRecognitionDis(void)
+inline void TWI_vGeneralCallRecognitionDis(void)
 {
 	TWI.TWAR.TWGCE=0;
 }
-void TWI_vInterruptEn(void)
+inline void TWI_vIntEn(void)
 {
 	TWI.TWCR.TWIE=1;
 }
-void TWI_vInterruptDis(void)
+inline void TWI_vIntDis(void)
 {
 	TWI.TWCR.TWIE=0;
 }
-void TWI_vSetAcknowledge(void)
+inline void TWI_vSetAcknowledge(void)
 {
 	TWI.TWCR.TWEA=1;
 }
-void TWI_vSetNotAcknowledge(void)
+inline void TWI_vSetNotAcknowledge(void)
 {
 	TWI.TWCR.TWEA=0;
 }

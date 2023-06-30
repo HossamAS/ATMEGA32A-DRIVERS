@@ -83,29 +83,29 @@ ErrorStatus_et ADC_vSetCallBack(pf pfCallBackCpy)
 	return ErrorStatusLoc_e;
 }
 
-void ADC_vEn(void)
+inline void ADC_vEn(void)
 {
    ADC->ADCSRA.ADEN=1; // @suppress("Field cannot be resolved")
 }
-void ADC_vDis(void)
+inline void ADC_vDis(void)
 {
 	ADC->ADCSRA.ADEN=0;
 }
 
-void ADC_vAutoTrigEn(void)
+inline void ADC_vAutoTrigEn(void)
 {
 	ADC->ADCSRA.ADATE=1;
 }
-void ADC_vAutoTrigDis(void)
+inline void ADC_vAutoTrigDis(void)
 {
 	ADC->ADCSRA.ADATE=0;
 }
 
-void ADC_vIntEn(void)
+inline void ADC_vIntEn(void)
 {
 	ADC->ADCSRA.ADIE=1;
 }
-void ADC_vIntDis(void)
+inline void ADC_vIntDis(void)
 {
 	ADC->ADCSRA.ADIE=0;
 }

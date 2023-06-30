@@ -24,19 +24,19 @@ void SPI_vInit(void)
 	SPI.SPCR.SPIE=SPI_INT_STATUS;
 }
 /* run-time configuration */
-void SPI_vIntEn(void)
+inline void SPI_vIntEn(void)
 {
 	SPI.SPCR.SPIE=1;
 }
-void SPI_vIntDis(void)
+inline void SPI_vIntDis(void)
 {
 	SPI.SPCR.SPIE=0;
 }
-void SPI_vEn(void)
+inline void SPI_vEn(void)
 {
 	SPI.SPCR.SPE=1;
 }
-void SPI_vDis(void)
+inline void SPI_vDis(void)
 {
 	SPI.SPCR.SPE=0;
 }

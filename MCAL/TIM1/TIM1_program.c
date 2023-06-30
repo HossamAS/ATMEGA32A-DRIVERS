@@ -101,43 +101,43 @@ ErrorStatus_et TIM1_vICU_EdgeSelect(uint8_kt u8EdgeTypeCpy)
 		}
 	return ErrorStatusLoc_e;
 }
-void TIM1_vICU_NoiseCancelerDis(void)
+inline void TIM1_vICU_NoiseCancelerDis(void)
 {
 	TIM1.TCCR1B.ICNC1=0;
 }
-void TIM1_vICU_NoiseCancelerEn(void)
+inline void TIM1_vICU_NoiseCancelerEn(void)
 {
 	TIM1.TCCR1B.ICNC1=1;
 }
-void TIM1_vOverflowIntEn(void)
+inline void TIM1_vOverflowIntEn(void)
 {
 	TIM1.TIMSK1.TOIE1=1;
 }
-void TIM1_vOverflowIntDis(void)
+inline void TIM1_vOverflowIntDis(void)
 {
 	TIM1.TIMSK1.TOIE1=0;
 }
-void TIM1_vRegA_OutputCompareMatchIntEn(void)
+inline void TIM1_vRegA_OutputCompareMatchIntEn(void)
 {
 	TIM1.TIMSK1.OCIE1A=1;
 }
-void TIM1_vRegA_OutputCompareMatchIntDis(void)
+inline void TIM1_vRegA_OutputCompareMatchIntDis(void)
 {
 	TIM1.TIMSK1.OCIE1A=0;
 }
-void TIM1_vRegB_OutputCompareMatchIntEn(void)
+inline void TIM1_vRegB_OutputCompareMatchIntEn(void)
 {
 	TIM1.TIMSK1.OCIE1B=1;
 }
-void TIM1_vRegB_OutputCompareMatchIntDis(void)
+inline void TIM1_vRegB_OutputCompareMatchIntDis(void)
 {
 	TIM1.TIMSK1.OCIE1B=0;
 }
-void TIM1_vIntputCaptureUnitIntDis(void)
+inline void TIM1_vIntputCaptureUnitIntDis(void)
 {
 TIM1.TIMSK1.TICIE1=0;
 }
-void TIM1_vIntputCaptureUnitIntEn(void)
+inline void TIM1_vIntputCaptureUnitIntEn(void)
 {
 TIM1.TIMSK1.TICIE1=1;
 }
