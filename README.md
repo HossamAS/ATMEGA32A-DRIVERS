@@ -43,4 +43,8 @@
     
     4-the drivers have the including of the files based on the current structure of the folders so please 
         be careful to avoid "there are no such file" preprocessing error.
+        
+    5-some of the run-time configuration APIs are built as inline functions because their small codes so 
+        we don't want to make a processor stacking overhead and beacuse we need to minimize the code as
+        possible to save more memory size.
                          
