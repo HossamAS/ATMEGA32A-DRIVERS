@@ -10,14 +10,14 @@
 .........
 
     1-DRIVER_private.c :
-        is the implementation of the driver private functions, variables or callback functions which can 
+        is the implementation of the driver private functions, variables or callback functions those can 
         be used in program file only by "the developer" (like static).
     2-DRIVER_private.h :
         is the implementation of the driver casted register using struct and union Pattern or to implement 
         the prototype of private functions, variables or callback functions those can be used in program 
         file only (like static ones).
     3-DRIVER_config.c:
-        is the implementation of the linking time configuration struct or array of structs that can be 
+        is the implementation of the linking time configuration struct or array of structs those can be 
         configured by the "user".
     4-DRIVER_config.h:
         is the implementation of the pre-build configuration which are the preprocessor directives that can
@@ -27,7 +27,7 @@
         "user" in the configuration files or estimating the limitation of the input parameters for each API
         to avoid PARAM_OUT_OF_RANGE state.
     6-DRIVER_program.h:
-        is the implementation of the core APIs and ISRs that were implemented by the "developer".
+        is the implementation of the core APIs and ISRs those were implemented by the "developer".
 
 
 ##### notes:
