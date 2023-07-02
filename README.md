@@ -27,7 +27,7 @@
         "user" in the configuration files or estimating the limitation of the input parameters for each API
         to avoid PARAM_OUT_OF_RANGE state.
     6-DRIVER_program.h:
-        is the implementation of the core APIs and ISRs that implemented by the "developer".
+        is the implementation of the core APIs and ISRs that were implemented by the "developer".
 
 
 ##### notes:
